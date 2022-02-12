@@ -1,0 +1,45 @@
+body {
+    background-color: #00000094;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.wr {
+    min-width: 657px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-flex;
+    
+    /* flex-shrink: 0;
+    justify-content: center; */
+}
+table {
+    ov
+    color: chartreuse;
+    font-size: 2rem;
+    font-style: italic;
+    width: 585;
+    height: 585;
+    border-collapse: collapse;
+    border: 15px solid rgb(150, 81, 81);
+    
+}
+td, th {
+    width: 65px;
+    height: 65px;
+    border: 3px solid rgb(202, 168, 168);
+}   border-collapse: collapse;
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.side {
+    color: rgb(235, 231, 231);
+    background-color: rgb(43, 3, 3);
+}
