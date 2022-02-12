@@ -13,6 +13,19 @@ ls							команда показує папку, в якій ми зараз �
 cd vasyl					команда перейте в папку василь
 cd ..						команда перейде на крок вверх по ієрархії
 del							видалить файл/папку
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MOVE           Moves one or more files from one directory to another
+REPLACE        Replaces files.
+RD             Removes a directory.
+RMDIR          Removes a directory.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SCHTASKS       Schedules commands and programs to run on a computer.
+START          Starts a separate window to run a specified program or command.
+TYPE           Displays the contents of a text file.
+new-item cmd.txt   creating a new file
  							
 git commit -m "commit_name"	роботить так звану фіксовану точку (приготовлює пакет змін файлів, який можна буде запушати на GIT-hub)
 							команда -m "" дозволяє нам присвоїти імя для даної точка в історії комітів
