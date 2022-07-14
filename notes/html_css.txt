@@ -101,9 +101,24 @@ font-weight: bold;				робить текст жирним в CSS
 text-decoration: underline;		підкреслює текст (<u></u>)
 font-style: italic;				робить текст "писаним" (<em></em>)
 text-decoration: line-through;	перекреслений текст (<s></s>)
+<hr>							в html додає горизонтальну розділювальну лінію
+
 background-color:				змінює фон елемента
 
-<hr>							в html додає горизонтальну розділювальну лінію
+background: repeating-linear-gradient(90deg, yellow 0px, blue 40px, green 40px, red 80px); 	так можна вказувати градієнт з повторенням
+background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png)						також фон підтримує url(). можна в фон 
+																							закинути будь-яке забраження з нету
+linear-gradient(35deg,#ccffff,#ffcccc);														замальовує елмент в кольори, розділяючи
+																							його калькість вказаних кольорів.
+
+
+ transform: scale(1.5); 		трансформ змінює елемент. трансформ в парі з скейлом змінює розмір. в дужках коефіцієнт.
+transform: skewX(24deg);		в парі з skewX скошує елемент по осі Х 
+transform: skewY(-10deg);		в парі з skewY скошує елемент по осі Y 
+transform: rotate(-45deg);		виконує поворот елементами
+
+
+
 
 Властивість box-shadow приймає значення
 
@@ -132,8 +147,21 @@ font-size: 2em;					змінює розмір шрифта *2 в два рази
 font-weight: 200;				змінює товщину кожної букви в тексті.
 
 a:hover {color: red;}			псевдо. при наведені курсором на алемент "а", змінює колір елемента на червоний.
-
+div:hover {transform: scale(1.1);}	так можна збільшити якийсь елемент при наведені на нього
 :focus 
+::before and ::after
+
+.heart::before {
+  content: "";					це мусить бути. Без нього не буде відображатися дане псевдо.
+  background-color: yellow;
+  border-radius: 25%;
+  position: absolute;
+  height: 50px;
+  width: 70px;
+  top: -50px;
+  left: 5px;
+}
+
 .....
 .....
 						******colors*******
