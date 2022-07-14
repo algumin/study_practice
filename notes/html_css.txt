@@ -164,6 +164,36 @@ div:hover {transform: scale(1.1);}	так можна збільшити який
 
 .....
 .....
+
+
+         ***@keyframes***
+#anim {									так був присвоєний ID для елементу (anim)
+  animation-name: colorful;				так просвоїли імя для анімації (colorful)
+  animation-duration: 3s;				так призначили тривалість анімації
+}
+
+@keyframes colorful {					а вже аж піля того ми можемо описати хід подій цієї, названої раніше 
+  0% {									анімації.  це робиться за допомогою @keyframes
+    background-color: blue;
+  }
+  100% {								0% - це початок фільму, 100% - кінець фільму.
+    background-color: yellow;
+  }
+}
+**********************************		також @frames і animation можна використати в hover для покращення ефекту.
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+	animation-fill-mode: forwards;		якшо додати таку стрічку, то це дозволить анімації запитинтися на позиції 100%,
+  }										допоки курсор залишатиметься наведеним на елементі. Інакше анмація прокрутисться 
+  @keyframes background-color {			і пернеться на початкову позицію.
+    100% {
+      background-color: #4791d0;
+    }
+  }
+***********************************
+
+
 						******colors*******
 color: 
 		red;
